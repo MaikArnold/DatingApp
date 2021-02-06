@@ -14,6 +14,7 @@ namespace API.Controllers
         private readonly DataContext _context;
         public UsersController(DataContext context)
         {
+            // Datenbankzugriff
             _context = context;
         }
 
